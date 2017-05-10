@@ -12,7 +12,7 @@ void getColor(int COULEUR, int *couleur)
 
 int lectureFichier()
 {
-    ifstream fileIn("/Users/laclouis5/Desktop/lectureFichierVec/lectureFichierVec/fichier_initial.txt", ios::in);
+    ifstream fileIn("/Users/laclouis5/Documents/Etudes/Enseirb-Matmeca/Cours E2/Prog C++/LectureFichierVec/fichier_initial.txt", ios::in);
     
     if(fileIn)
     {
