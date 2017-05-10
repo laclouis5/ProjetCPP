@@ -8,8 +8,14 @@
 
 #include <iostream>
 
+#include "lectureFichier.h"
+
+using namespace std;
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    if(lectureFichier() < 0)
+        cerr << "Erreur dans l'execution de la lecture\n" << endl;
+    
     return 0;
 }
