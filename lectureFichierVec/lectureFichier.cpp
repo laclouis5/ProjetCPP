@@ -1,4 +1,5 @@
 #include "lectureFichier.h"
+#include "cpoint.h"
 
 using namespace std;
 
@@ -9,8 +10,7 @@ void getColor(int COULEUR, int *couleur)
     couleur[2] = COULEUR - 1000*couleur[1] - 1000000*couleur[0];
 }
 
-
-int lectureFichier()
+int lectureFichier(Collection *collection)
 {
     ifstream fileIn("/Users/laclouis5/Documents/Etudes/Enseirb-Matmeca/Cours E2/Prog C++/LectureFichierVec/fichier_initial.txt", ios::in);
     
@@ -33,6 +33,8 @@ int lectureFichier()
                 getColor(COULEUR, couleur);
                 
                 cout << "Forme : " << SHAPE << "\nX : " << X << "\nY : " << Y << "\nCouleur : " << COULEUR << "\nTransparence : " << TRANSP << "\nPlan : " << Z << "\n" << endl;
+                
+                // collection->AddPoint(CPoint(X, Y, couleur, TRANSP));
             }
             
             else if(SHAPE.compare("LIGNE") == 0)

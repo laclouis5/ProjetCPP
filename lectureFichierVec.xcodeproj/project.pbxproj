@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C6810AAD1EC235EA00D7FD14 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6810AAC1EC235EA00D7FD14 /* main.cpp */; };
 		C6810AB81EC2367B00D7FD14 /* lectureFichier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6810AB71EC2367B00D7FD14 /* lectureFichier.cpp */; };
+		C6810AE01EC33AA100D7FD14 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6810AD31EC33AA100D7FD14 /* main.cpp */; };
+		C6810AFF1EC33C4800D7FD14 /* cimage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6810AE51EC33C4800D7FD14 /* cimage.cpp */; };
+		C6810B001EC33C4800D7FD14 /* cligne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6810AE71EC33C4800D7FD14 /* cligne.cpp */; };
+		C6810B011EC33C4800D7FD14 /* cpixel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6810AE91EC33C4800D7FD14 /* cpixel.cpp */; };
+		C6810B061EC33C4800D7FD14 /* cpoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6810AF41EC33C4800D7FD14 /* cpoint.cpp */; };
+		C6810B0A1EC33C4800D7FD14 /* cbitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6810AFD1EC33C4800D7FD14 /* cbitmap.cpp */; };
+		C6810B0E1EC34E5D00D7FD14 /* Collection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6810B0C1EC34E5D00D7FD14 /* Collection.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +31,21 @@
 
 /* Begin PBXFileReference section */
 		C6810AA91EC235EA00D7FD14 /* lectureFichierVec */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lectureFichierVec; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6810AAC1EC235EA00D7FD14 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C6810AB71EC2367B00D7FD14 /* lectureFichier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lectureFichier.cpp; sourceTree = "<group>"; };
 		C6810AB91EC23DAA00D7FD14 /* lectureFichier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lectureFichier.h; sourceTree = "<group>"; };
+		C6810AD31EC33AA100D7FD14 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C6810AE51EC33C4800D7FD14 /* cimage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cimage.cpp; sourceTree = "<group>"; };
+		C6810AE61EC33C4800D7FD14 /* cimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cimage.h; sourceTree = "<group>"; };
+		C6810AE71EC33C4800D7FD14 /* cligne.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cligne.cpp; sourceTree = "<group>"; };
+		C6810AE81EC33C4800D7FD14 /* cligne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cligne.h; sourceTree = "<group>"; };
+		C6810AE91EC33C4800D7FD14 /* cpixel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cpixel.cpp; sourceTree = "<group>"; };
+		C6810AEA1EC33C4800D7FD14 /* cpixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpixel.h; sourceTree = "<group>"; };
+		C6810AF41EC33C4800D7FD14 /* cpoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cpoint.cpp; sourceTree = "<group>"; };
+		C6810AF51EC33C4800D7FD14 /* cpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpoint.h; sourceTree = "<group>"; };
+		C6810AFD1EC33C4800D7FD14 /* cbitmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cbitmap.cpp; sourceTree = "<group>"; };
+		C6810AFE1EC33C4800D7FD14 /* cbitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cbitmap.h; sourceTree = "<group>"; };
+		C6810B0B1EC34E4800D7FD14 /* Collection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Collection.h; path = ../LectureFichierVec/Collection.h; sourceTree = "<group>"; };
+		C6810B0C1EC34E5D00D7FD14 /* Collection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Collection.cpp; path = ../LectureFichierVec/Collection.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +62,11 @@
 		C6810AA01EC235EA00D7FD14 = {
 			isa = PBXGroup;
 			children = (
+				C6810AD31EC33AA100D7FD14 /* main.cpp */,
 				C6810AAB1EC235EA00D7FD14 /* lectureFichierVec */,
+				C6810AEB1EC33C4800D7FD14 /* Formes */,
+				C6810AE41EC33C4800D7FD14 /* Image */,
+				C6810AFC1EC33C4800D7FD14 /* Format */,
 				C6810AAA1EC235EA00D7FD14 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,11 +82,43 @@
 		C6810AAB1EC235EA00D7FD14 /* lectureFichierVec */ = {
 			isa = PBXGroup;
 			children = (
-				C6810AAC1EC235EA00D7FD14 /* main.cpp */,
 				C6810AB71EC2367B00D7FD14 /* lectureFichier.cpp */,
 				C6810AB91EC23DAA00D7FD14 /* lectureFichier.h */,
+				C6810B0C1EC34E5D00D7FD14 /* Collection.cpp */,
+				C6810B0B1EC34E4800D7FD14 /* Collection.h */,
 			);
 			path = lectureFichierVec;
+			sourceTree = "<group>";
+		};
+		C6810AE41EC33C4800D7FD14 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C6810AE51EC33C4800D7FD14 /* cimage.cpp */,
+				C6810AE61EC33C4800D7FD14 /* cimage.h */,
+				C6810AE71EC33C4800D7FD14 /* cligne.cpp */,
+				C6810AE81EC33C4800D7FD14 /* cligne.h */,
+				C6810AE91EC33C4800D7FD14 /* cpixel.cpp */,
+				C6810AEA1EC33C4800D7FD14 /* cpixel.h */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		C6810AEB1EC33C4800D7FD14 /* Formes */ = {
+			isa = PBXGroup;
+			children = (
+				C6810AF41EC33C4800D7FD14 /* cpoint.cpp */,
+				C6810AF51EC33C4800D7FD14 /* cpoint.h */,
+			);
+			path = Formes;
+			sourceTree = "<group>";
+		};
+		C6810AFC1EC33C4800D7FD14 /* Format */ = {
+			isa = PBXGroup;
+			children = (
+				C6810AFD1EC33C4800D7FD14 /* cbitmap.cpp */,
+				C6810AFE1EC33C4800D7FD14 /* cbitmap.h */,
+			);
+			path = Format;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C6810AA41EC235EA00D7FD14 /* Build configuration list for PBXProject "lectureFichierVec" */;
+			buildConfigurationList = C6810AA41EC235EA00D7FD14 /* Build configuration list for PBXProject "LectureFichierVec" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -124,8 +178,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6810AAD1EC235EA00D7FD14 /* main.cpp in Sources */,
+				C6810AE01EC33AA100D7FD14 /* main.cpp in Sources */,
+				C6810B001EC33C4800D7FD14 /* cligne.cpp in Sources */,
 				C6810AB81EC2367B00D7FD14 /* lectureFichier.cpp in Sources */,
+				C6810B0E1EC34E5D00D7FD14 /* Collection.cpp in Sources */,
+				C6810B0A1EC33C4800D7FD14 /* cbitmap.cpp in Sources */,
+				C6810B011EC33C4800D7FD14 /* cpixel.cpp in Sources */,
+				C6810B061EC33C4800D7FD14 /* cpoint.cpp in Sources */,
+				C6810AFF1EC33C4800D7FD14 /* cimage.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +298,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C6810AA41EC235EA00D7FD14 /* Build configuration list for PBXProject "lectureFichierVec" */ = {
+		C6810AA41EC235EA00D7FD14 /* Build configuration list for PBXProject "LectureFichierVec" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6810AAE1EC235EB00D7FD14 /* Debug */,
